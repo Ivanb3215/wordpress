@@ -1,0 +1,41 @@
+<div class="scroll_box">
+    <table id="domainTable" class="tablesorter" cellpadding="5" cellspacing="0" width="100%" align="center">
+        <thead>
+        <tr>
+            <th style="border-left: none;">Domain</th>
+            <th>Estimated Visits</th>
+            <th>Global Rank</th>
+            <th>Avg. Visit Duration</th>
+            <th>Pages/Visit</th>
+            <th>Bounce Rate, %</th>
+        </tr>
+        </thead>
+        <tbody>
+            <!--
+            <tr>
+                <td style="border-left: none;">&nbsp;</td>
+                <td>
+                    <div class="filterItem">
+                    <select name="filter_global_rank">
+                        <option value="over">Over</option>
+                        <option value="under">Under</option>
+                    </select>
+                    <input type="text" name="filter_global_rank_value" size="5" value="">
+                    </div>
+                </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </tr>
+            -->
+        {DOMAIN_ROWS}
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() 
+{ 
+    $("#domainTable").tablesorter(); 
+});
+</script>

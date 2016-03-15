@@ -1,0 +1,26 @@
+<div class="scroll_box">
+    <table cellpadding="5" cellspacing="0" width="100%" align="center">
+        <thead>
+        <tr>
+            <th style="border-left: none;">File Name</th>
+            <th>Upload Date</th>
+            <th>File Log</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {FILE_ROWS}
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    function deleteItem(name) {
+        if (confirm("Sure want to delete " + name + "?")) {
+            return true;
+        }
+
+        return false;
+    }
+</script>
+    

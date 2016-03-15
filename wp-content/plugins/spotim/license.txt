@@ -1,0 +1,5 @@
+The Spot.IM Service (www.spot.im) allows its users to create, share, embed, moderate and join various public or private “Spots”, where they may post messages and other content, and participate in lively discussions with other users.
+
+The Official Spot.IM WP Plugin enables WordPress users to easily embed a Spot in their WP pages directly from their WP Admin Dashboard.
+
+The Official Spot.IM WP Plugin is licensed under the GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html), while the Spot.IM Service, including any Spot, source or object code, APIs, text, images, design, logos and any content thereof or available thereby, including any use thereof through the Official Spot.IM WP Plugin, are licensed under and may be used (if any) solely in accordance with the Spot.IM Terms of Use and Privacy Policy (www.spot.im/terms and www.spot.im/privacy, respectively).

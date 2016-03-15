@@ -1,0 +1,18 @@
+<form id="target_form" action="/domains/" method="post" enctype="multipart/form-data">
+<table cellpadding="5" cellspacing="0" border="0" align="center">
+<tr>
+    <th align="right">Select CSV File</th>
+    <td><input type="file" name="csv"></td>
+    <td colspan="2"><input id="submit_button" type="submit" name="run" value="Upload" /></td>
+</tr>
+</table>
+</form>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#submit_button").click(function () {
+            $('#target_form').submit();
+            $("#submit_button").attr("disabled", "disabled");
+        });
+    });
+</script>

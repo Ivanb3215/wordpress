@@ -1,0 +1,13 @@
+<tr>
+    <td style="border-left: none;" class="{row_class}"><a href="/domains/?id={ID}" title="View Domains">{FILE_NAME}</a></td>
+    <td class="{row_class}">{FILE_DATE}</td>
+    <td class="{row_class}">Raw domains: <b>{RAW_NUM}</b><br>
+            Added domains: <b>{ADDED_NUM}</b><br>
+            Duplicates: {DUPLIC_NUM}<br>
+            Empty: {ERROR_NUM}<br>
+            Bounce Rate out: {BOUNCE_RATE_OUT}<br>
+            Pages/Visit out: {PAGES_VISIT_OUT}<br>
+            Visit Duration out: {VISIT_DURATION_OUT}<br>
+            Keywords out: {KEYWORDS_OUT}</td>
+    <td align="center" class="{row_class}"><a href="/domains/?download={ID}" title="Download">Download</a> | <a href="/domains/?delete={ID}" title="Delete" onclick="return deleteItem('{FILE_NAME}')">Delete</a></td>
+</tr>

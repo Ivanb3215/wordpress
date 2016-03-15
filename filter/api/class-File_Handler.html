@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class File_Handler | Online Email Filtering Dashboard</title>
+
+	<script type="text/javascript" src="resources/combined.js?1889508232"></script>
+	<script type="text/javascript" src="elementlist.js?3278759589"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-EmailFiltering.html">EmailFiltering</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-File_Handler.html">File_Handler</a></li>
+				<li><a href="class-Model_Mysql.html">Model_Mysql</a></li>
+				<li><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Verify_Email_API.html">Verify_Email_API</a></li>
+				<li><a href="class-Wrapper.html">Wrapper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-EmailFiltering.html" title="Summary of EmailFiltering"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class File_Handler</h1>
+
+
+	<div class="description">
+	
+<p>Class controller File Handler o Move uploaded file o Extract emails from file
+o Verify emails if existant o Check for duplicated emails o Remove bounced and
+duplicated emails from file o Record valid and unique emails into database o
+Show uploaded files list o Get file to download o Delete file</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Model_Mysql.html"><span>Model_Mysql</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>File_Handler</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-EmailFiltering.html">EmailFiltering</a><br />
+
+				<b>Author:</b>
+				Alex Kaydansky &lt;<a
+href="mailto:kaydansky&#64;gmail.com">kaydansky&#64;<!---->gmail.com</a>&gt;<br />
+				<b>Version:</b>
+				2.0<br />
+				<b>Since:</b>
+				2014/11/02<br />
+		<b>Located at</b> <a href="source-class-File_Handler.html#3-573" title="Go to source code">application/controllers/controller_file_handler.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-File_Handler.html#85-102" title="Go to source code">__construct</a>( <span>object <var>$dbh</var></span> )</code>
+
+		<div class="description short">
+			
+<p>File_Handler constructor o Load SQL query templates list o Create model
+Verify_Email_API instance o Establish database connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>File_Handler constructor o Load SQL query templates list o Create model
+Verify_Email_API instance o Establish database connection</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dbh</var></dt>
+					<dd><code>object</code><br>$dbh</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="move_file" id="_move_file">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_move_file">#</a>
+		<code><a href="source-class-File_Handler.html#104-132" title="Go to source code">move_file</a>( <span>array <var>$fileData</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Move uploaded source file to server</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Move uploaded source file to server</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fileData</var></dt>
+					<dd><code>array</code><br>$fileData User uploaded file</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>File path<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="extract_emails" id="_extract_emails">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_extract_emails">#</a>
+		<code><a href="source-class-File_Handler.html#134-247" title="Go to source code">extract_emails</a>( <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Extract email adresses from source file o Remove lines with duplicated emails
+from source file o Remove lines without emails o Count duplicated emails o Count
+raw emails in source file o Break down lines with multiple emails to separate
+lines o Get unique emails</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Extract email adresses from source file o Remove lines with duplicated emails
+from source file o Remove lines without emails o Count duplicated emails o Count
+raw emails in source file o Break down lines with multiple emails to separate
+lines o Get unique emails</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="check_duplication" id="_check_duplication">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_check_duplication">#</a>
+		<code><a href="source-class-File_Handler.html#362-379" title="Go to source code">check_duplication</a>( <span>string <var>$email</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check for duplicated email address against database records</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check for duplicated email address against database records</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$email</var></dt>
+					<dd><code>string</code><br>$email</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write_file_processed" id="_write_file_processed">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write_file_processed">#</a>
+		<code><a href="source-class-File_Handler.html#404-419" title="Go to source code">write_file_processed</a>( <span>string <var>$file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Record processed file into server</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Record processed file into server</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_record_file" id="_db_record_file">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_record_file">#</a>
+		<code><a href="source-class-File_Handler.html#421-439" title="Go to source code">db_record_file</a>( <span>string <var>$filePath</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Record source file path into database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Record source file path into database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filePath</var></dt>
+					<dd><code>string</code><br>$filePath</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_record_emails" id="_db_record_emails">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_record_emails">#</a>
+		<code><a href="source-class-File_Handler.html#441-459" title="Go to source code">db_record_emails</a>( <span>array <var>$emails</var> = <span class="php-keyword1">null</span></span>, <span>integer <var>$fileId</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Record email addresses into database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Record email addresses into database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$emails</var></dt>
+					<dd><code>array</code><br>$emails</dd>
+					<dt><var>$fileId</var></dt>
+					<dd><code>integer</code><br>$fileId</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="show_file_list" id="_show_file_list">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_show_file_list">#</a>
+		<code><a href="source-class-File_Handler.html#461-477" title="Go to source code">show_file_list</a>( )</code>
+
+		<div class="description short">
+			
+<p>Show uploaded, filtered source files list</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show uploaded, filtered source files list</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="download_file" id="_download_file">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_download_file">#</a>
+		<code><a href="source-class-File_Handler.html#479-506" title="Go to source code">download_file</a>( <span>integer <var>$id</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Force file for download</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Force file for download</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>integer</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete_file" id="_delete_file">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete_file">#</a>
+		<code><a href="source-class-File_Handler.html#508-527" title="Go to source code">delete_file</a>( <span>integer <var>$id</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete file from server and from database o Delete all emails related to file
+from database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete file from server and from database o Delete all emails related to file
+from database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>integer</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="check_file_by_id" id="_check_file_by_id">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_check_file_by_id">#</a>
+		<code><a href="source-class-File_Handler.html#529-554" title="Go to source code">check_file_by_id</a>( <span>integer <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if file is existant</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if file is existant</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>integer</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>file path<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="record_file_log" id="_record_file_log">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_record_file_log">#</a>
+		<code><a href="source-class-File_Handler.html#556-572" title="Go to source code">record_file_log</a>( <span>integer <var>$f_id</var></span>, <span>integer <var>$f_added_num</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Record file processing log into database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Record file processing log into database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$f_id</var></dt>
+					<dd><code>integer</code><br>$f_id</dd>
+					<dt><var>$f_added_num</var></dt>
+					<dd><code>integer</code><br>$f_added_num</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Model_Mysql.html#methods">Model_Mysql</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Model_Mysql.html#_db_connect">db_connect()</a>, 
+			<a href="class-Model_Mysql.html#_db_query">db_query()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="Model_API" id="$Model_API">
+		<td class="attributes"><code>
+			private  
+			object
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#23-26" title="Go to source code"><var>$Model_API</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$Model_API" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="f_raw_num" id="$f_raw_num">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#28-34" title="Go to source code"><var>$f_raw_num</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$f_raw_num" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Number of emails found in file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Number of emails found in file</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="f_duplic_num" id="$f_duplic_num">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#36-42" title="Go to source code"><var>$f_duplic_num</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$f_duplic_num" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Number of duplicated emails found in file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Number of duplicated emails found in file</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="f_added_num" id="$f_added_num">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#53-59" title="Go to source code"><var>$f_added_num</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$f_added_num" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Number of added emails</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Number of added emails</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="f_empty_num" id="$f_empty_num">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#61-67" title="Go to source code"><var>$f_empty_num</var></a>
+		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$f_empty_num" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Number of lines without emails</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Number of lines without emails</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="new_rows" id="$new_rows">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#69-75" title="Go to source code"><var>$new_rows</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$new_rows" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Refactored file rows</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Refactored file rows</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="unique_emails" id="$unique_emails">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-File_Handler.html#77-83" title="Go to source code"><var>$unique_emails</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$unique_emails" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Unique emails extracted from source file</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Unique emails extracted from source file</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Online Email Filtering Dashboard API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

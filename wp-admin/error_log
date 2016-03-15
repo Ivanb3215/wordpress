@@ -1,0 +1,60 @@
+[14-Oct-2014 15:21:09] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:12] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:12] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:26] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:28] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:28] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:21:59] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:22:01] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:22:02] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:12] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:14] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:15] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:19] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:21] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[14-Oct-2014 15:23:22] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:12:19] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:12:21] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:12:21] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:13:03] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:13:06] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:13:07] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:14:40] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:14:42] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[15-Oct-2014 11:14:42] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[18-Oct-2014 21:43:09] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[18-Oct-2014 21:43:11] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[18-Oct-2014 21:43:12] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 123
+[18-Oct-2014 21:49:56] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 130
+[18-Oct-2014 21:49:58] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 130
+[18-Oct-2014 21:49:58] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 130
+[18-Oct-2014 21:53:30] PHP Warning:  require_once(__DIR__/helpers/form.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[18-Oct-2014 21:53:30] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '__DIR__/helpers/form.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[18-Oct-2014 21:53:32] PHP Warning:  require_once(__DIR__/helpers/form.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[18-Oct-2014 21:53:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '__DIR__/helpers/form.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[18-Oct-2014 21:53:32] PHP Warning:  require_once(__DIR__/helpers/form.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[18-Oct-2014 21:53:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '__DIR__/helpers/form.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/spotim/public_html/wp-content/plugins/spotim/admin.php on line 26
+[19-Oct-2014 13:57:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:59) in /home3/spotim/public_html/wp-includes/option.php on line 750
+[19-Oct-2014 13:57:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:59) in /home3/spotim/public_html/wp-includes/option.php on line 751
+[19-Oct-2014 08:57:56] PHP Warning:  Unterminated comment starting line 231 in /home3/spotim/public_html/wp-admin/options-general.php on line 231
+[19-Oct-2014 08:57:56] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home3/spotim/public_html/wp-admin/options-general.php on line 231
+[19-Oct-2014 09:24:48] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home3/spotim/public_html/wp-admin/options-general.php on line 128
+[19-Oct-2014 09:26:03] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home3/spotim/public_html/wp-admin/options-general.php on line 128
+[19-Oct-2014 09:32:41] PHP Fatal error:  Call to undefined function  wp_upload_dir() in /home3/spotim/public_html/wp-admin/options-general.php on line 12
+[19-Oct-2014 09:32:43] PHP Fatal error:  Call to undefined function  wp_upload_dir() in /home3/spotim/public_html/wp-admin/options-general.php on line 12
+[19-Oct-2014 09:32:44] PHP Fatal error:  Call to undefined function  wp_upload_dir() in /home3/spotim/public_html/wp-admin/options-general.php on line 12
+[19-Oct-2014 09:32:45] PHP Fatal error:  Call to undefined function  wp_upload_dir() in /home3/spotim/public_html/wp-admin/options-general.php on line 12
+[19-Oct-2014 09:32:46] PHP Fatal error:  Call to undefined function  wp_upload_dir() in /home3/spotim/public_html/wp-admin/options-general.php on line 12
+[19-Oct-2014 09:32:58] PHP Parse error:  syntax error, unexpected $end in /home3/spotim/public_html/wp-admin/options-general.php on line 131
+[19-Oct-2014 14:33:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 750
+[19-Oct-2014 14:33:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 751
+[19-Oct-2014 14:33:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 750
+[19-Oct-2014 14:33:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 751
+[19-Oct-2014 14:33:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 750
+[19-Oct-2014 14:33:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/wp-admin/options-general.php:12) in /home3/spotim/public_html/wp-includes/option.php on line 751
+[22-Oct-2014 18:26:42] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62
+[22-Oct-2014 18:26:45] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62
+[22-Oct-2014 18:26:46] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62
+[22-Oct-2014 18:26:49] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62
+[22-Oct-2014 18:26:52] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62
+[22-Oct-2014 18:26:52] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home3/spotim/public_html/wp-content/plugins/trunk/spotim.php on line 62

@@ -1,0 +1,17 @@
+[13-Nov-2014 13:19:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/spotim/public_html/domains/application/controllers/controller_router.php:91) in /home3/spotim/public_html/domains/application/controllers/controller_router.php on line 158
+[14-Nov-2014 17:56:58 America/Chicago] PHP Warning:  scandir(SOURCE_PATH): failed to open dir: No such file or directory in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[14-Nov-2014 17:56:58 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[14-Nov-2014 17:56:58 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[14-Nov-2014 17:58:14 America/Chicago] PHP Warning:  scandir(source): failed to open dir: No such file or directory in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[14-Nov-2014 17:58:14 America/Chicago] PHP Warning:  scandir(): (errno 2): No such file or directory in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[14-Nov-2014 17:58:14 America/Chicago] PHP Warning:  array_diff(): Argument #1 is not an array in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 649
+[17-Nov-2014 09:57:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home3/spotim/public_html/domains/application/models/model_mysql_pdo.php:54
+Stack trace:
+#0 /home3/spotim/public_html/domains/application/models/model_mysql_pdo.php(54): PDOStatement->execute(Array)
+#1 /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php(493): Model_Mysql->db_query(Object(PDO), 'INSERT INTO `fi...', Array)
+#2 /home3/spotim/public_html/domains/application/controllers/controller_router.php(281): File_Handler->db_record_file('/home3/spotim/p...')
+#3 /home3/spotim/public_html/domains/application/controllers/controller_router.php(138): Router->process_source_csv('/home3/spotim/p...', Object(File_Handler))
+#4 /home3/spotim/public_html/domains/index.php(34): Router->__construct()
+#5 {main}
+  thrown in /home3/spotim/public_html/domains/application/models/model_mysql_pdo.php on line 54
+[17-Nov-2014 12:56:56 America/Chicago] PHP Fatal error:  Unsupported operand types in /home3/spotim/public_html/domains/application/controllers/controller_file_handler.php on line 214

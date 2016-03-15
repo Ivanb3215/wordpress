@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Router | Online Email Filtering Dashboard</title>
+
+	<script type="text/javascript" src="resources/combined.js?1889508232"></script>
+	<script type="text/javascript" src="elementlist.js?3278759589"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-EmailFiltering.html">EmailFiltering</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-File_Handler.html">File_Handler</a></li>
+				<li><a href="class-Model_Mysql.html">Model_Mysql</a></li>
+				<li class="active"><a href="class-Router.html">Router</a></li>
+				<li><a href="class-Verify_Email_API.html">Verify_Email_API</a></li>
+				<li><a href="class-Wrapper.html">Wrapper</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-EmailFiltering.html" title="Summary of EmailFiltering"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Router</h1>
+
+
+	<div class="description">
+	
+<p>Class controller Router o Route script regarding URI and HTTP request o
+Dispatch methods</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Model_Mysql.html"><span>Model_Mysql</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Router</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-EmailFiltering.html">EmailFiltering</a><br />
+
+				<b>Author:</b>
+				Alex Kaydansky &lt;<a
+href="mailto:kaydansky&#64;gmail.com">kaydansky&#64;<!---->gmail.com</a>&gt;<br />
+				<b>Version:</b>
+				2.0<br />
+				<b>Since:</b>
+				2014/11/02<br />
+				<b>Extends:</b>
+				PDO MySQL interface<br />
+		<b>Located at</b> <a href="source-class-Router.html#3-249" title="Go to source code">application/controllers/controller_router.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Router.html#48-248" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>Class constructor o Dispatch action depending on URI and HTTP request o
+Include necessary models/controllers files o Define default internal content o
+Echo messages if any o Establish datbase connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class constructor o Dispatch action depending on URI and HTTP request o
+Include necessary models/controllers files o Define default internal content o
+Echo messages if any o Establish datbase connection</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Model_Mysql.html#methods">Model_Mysql</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Model_Mysql.html#_db_connect">db_connect()</a>, 
+			<a href="class-Model_Mysql.html#_db_query">db_query()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="templateMain" id="$templateMain">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#16-22" title="Go to source code"><var>$templateMain</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'index.html'</span></code></td>
+		<td class="description"><div>
+			<a href="#$templateMain" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Main HTML template filename</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Main HTML template filename</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="templateUiSettings" id="$templateUiSettings">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#24-30" title="Go to source code"><var>$templateUiSettings</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'ui_settings.html'</span></code></td>
+		<td class="description"><div>
+			<a href="#$templateUiSettings" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>UI Settings HTML template filename</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>UI Settings HTML template filename</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="templateFileList" id="$templateFileList">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#32-38" title="Go to source code"><var>$templateFileList</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'file_list.html'</span></code></td>
+		<td class="description"><div>
+			<a href="#$templateFileList" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File List HTML template filename</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File List HTML template filename</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="templateFileRows" id="$templateFileRows">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Router.html#40-46" title="Go to source code"><var>$templateFileRows</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'file_rows.html'</span></code></td>
+		<td class="description"><div>
+			<a href="#$templateFileRows" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>File Rows HTML template filename</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>File Rows HTML template filename</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Online Email Filtering Dashboard API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

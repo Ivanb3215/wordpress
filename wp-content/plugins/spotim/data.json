@@ -1,0 +1,50 @@
+{
+    "page_options": {
+        "page_title": "Spot.IM",
+        "menu_title": "Spot.IM",
+        "capability": "manage_options",
+        "view": "admin_view"
+    },
+    "option_name": "spotim_options",
+    "validation_callback": "validate_form",
+    "sections": [
+        {
+            "id": "spotim_main_section",
+            "title": "Main",
+            "fields": [
+                {
+                    "id": "spotim_id",
+                    "type": "text",
+                    "title": "Spot's ID",
+                    "callback": "addField",
+                    "section": "spotim_main_section",
+                    "description": "Find your Spot's ID at the <a href=\"https://www.spot.im/spots\" target=\"_blank\">Spot management dashboard</a>.</br> Don't have an account? <a href=\"http://www.spot.im/spots\" target=\"_blank\">Create one</a> for free!"
+                },
+                {
+                    "id": "spotim_position",
+                    "type": "select",
+                    "title": "Position",
+                    "callback": "addField",
+                    "section": "spotim_main_section",
+                    "select_options": {
+                        "Right": "right",
+                        "Left": "left"
+                    },
+                    "description": "Where you want to position your Spot, on the Right or Left bottom corner of your website?"
+                },
+                {
+                    "id": "spotim_state",
+                    "type": "select",
+                    "title": "State",
+                    "callback": "addField",
+                    "section": "spotim_main_section",
+                    "select_options": {
+                        "Open": "spot-state",
+                        "Close": "notices-closed-state"
+                    },
+                    "description": "First time impression Open or Closed?"
+                }
+            ]
+        }
+    ]
+}
